@@ -14,3 +14,6 @@ Get a free API key at https://stackapps.com/apps/oauth/register and put it in yo
 # Collect data
 python3 fetch_data.py --tag python --max-questions 3000
 ```
+
+
+StackOverflow content is licensed under CC BY-SA. Data collected via the Stack Exchange API is attributed to StackOverflow and its contributors.
