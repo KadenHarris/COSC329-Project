@@ -13,6 +13,9 @@ Get a free API key at https://stackapps.com/apps/oauth/register and put it in yo
 ```bash
 # Collect data
 python3 fetch_data.py --tag python --max-questions 3000
+
+# Build the graph
+python3 build_graph.py --top 20
 ```
 
 
