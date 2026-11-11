@@ -16,6 +16,9 @@ python3 fetch_data.py --tag python --max-questions 3000
 
 # Build the graph
 python3 build_graph.py --top 20
+
+# Calculate centrality measures
+python3 centrality.py
 ```
 
 
