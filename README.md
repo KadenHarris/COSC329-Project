@@ -19,6 +19,9 @@ python3 build_graph.py --top 20
 
 # Calculate centrality measures
 python3 centrality.py
+
+# Question classification
+python3 classification.py
 ```
 
 
