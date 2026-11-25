@@ -22,7 +22,12 @@ python3 centrality.py
 
 # Question classification
 python3 classification.py
+
+# Bloom graphs
+python3 bloom_graphs.py
 ```
 
+- All relevant output files (`*.png`s and `*.csv`s) are located in `output/`
+- All collected data is stored in `data/`
 
 StackOverflow content is licensed under CC BY-SA. Data collected via the Stack Exchange API is attributed to StackOverflow and its contributors.
