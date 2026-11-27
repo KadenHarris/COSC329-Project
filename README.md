@@ -11,6 +11,9 @@ pip install -r requirements.txt
 Get a free API key at https://stackapps.com/apps/oauth/register and put it in your `env` file.
 
 ```bash
+# Run tests
+python3 -m pytest
+
 # Collect data
 python3 fetch_data.py --tag python --max-questions 3000
 
@@ -27,7 +30,7 @@ python3 classification.py
 python3 bloom_graphs.py
 ```
 
-- All relevant output files (`*.png`s and `*.csv`s) are located in `output/`
+- All relevant output files (`*.png` and `*.csv`) are located in `output/`
 - All collected data is stored in `data/`
 
 StackOverflow content is licensed under CC BY-SA. Data collected via the Stack Exchange API is attributed to StackOverflow and its contributors.
